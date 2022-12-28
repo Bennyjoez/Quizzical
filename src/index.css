@@ -89,4 +89,8 @@ body {
   bottom: 0%;
 }
 
-
+@media (max-width: 400px) {
+  .answers {
+    flex-direction: column;
+  }
+}
