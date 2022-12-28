@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 20px;
+}
+.start--page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #4D5B9E;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  color: goldenrod;
+}
+.title {
+  color: #151c44;
+  font-size: 30px;
+}
+.description {
+  color: #151c44;
+  font-size: 1.2rem;
+}
+.quiz--container {
+  max-width: 800px;
+  margin: auto;
+}
+.quiztile {
+  border-bottom: 1.5px solid black;
+  padding: 5px;
+  color: #151c44;
+}
+.answers {
+  display: flex;
+  gap: 20px;
+  margin: 15px 4px;
+}
+.answer {
+  border: 1px solid #151c44;
+  padding: 2px 6px;
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+.check-answers {
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.blob-top, .blob-bottom {
+  position: absolute;
+  z-index: -1;
+}
+.blob-top {
+  top: -40%;
+  right: -50%;
+}
+
+.blob-bottom {
+  left: -50%;
+  bottom: 0%;
+}
+
