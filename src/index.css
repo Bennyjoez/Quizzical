@@ -13,6 +13,9 @@ body {
   overflow-x: hidden;
   padding: 20px;
 }
+.overall-container {
+  position: relative;
+}
 .start--page {
   display: flex;
   flex-direction: column;
@@ -74,8 +77,8 @@ body {
   z-index: -1;
 }
 .blob-top {
-  top: -40%;
-  right: -50%;
+  top: -70%;
+  right: -110%;
 }
 
 .blob-bottom {
