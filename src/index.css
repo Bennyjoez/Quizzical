@@ -10,11 +10,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  overflow-x: hidden;
   padding: 20px;
+  overflow-x: hidden;
 }
 .overall-container {
   position: relative;
+  margin: auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 .start--page {
   display: flex;
@@ -73,7 +76,7 @@ body {
   transform: translateX(-50%);
 }
 .blob-top, .blob-bottom {
-  position: absolute;
+  position: fixed;
   z-index: -1;
 }
 .blob-top {
@@ -85,4 +88,5 @@ body {
   left: -50%;
   bottom: 0%;
 }
+
 
