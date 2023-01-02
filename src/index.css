@@ -69,6 +69,7 @@ body {
   border-radius: 10px;
   display: grid;
   place-items: center;
+  cursor: pointer;
 }
 .check-answers {
   margin-top: 20px;
