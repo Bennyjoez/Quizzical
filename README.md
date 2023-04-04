@@ -1,17 +1,3 @@
-# Quizzical
-This is a multiple choices questions app created in React. 
-## How to play
-- Read through the question.
-- Look at the possible answers listed below each question.
-- Click on a possible answer to a question.  
-
-     **Note** : One answer per question
-- After selecting answers to all questions, click on check answers button.
-- Look at the correct answers highlighted in green.
-- Check the score at the bottom of the screen.
-- Click on play again to start a new game.
-
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -27,9 +13,11 @@ This is a multiple choices questions app created in React.
 - [📖 About the Project](#about-project)
 - - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Live Demo](#live-demo)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [How_to_play](#how-to-play)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
@@ -59,6 +47,13 @@ This is a multiple choices questions app created in React.
     <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
+
+<!-- Live demo -->
+
+### Live Demo <a name="live-demo"></a>
+Watch the page on this [link](https://quizzical-scrimb.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Key Features -->
 
@@ -108,6 +103,17 @@ To run the project:
   ```sh
     npm run dev
   ```
+
+### How to play <a name="how-to-play"></a>
+- Read through the question.
+- Look at the possible answers listed below each question.
+- Click on a possible answer to a question.  
+
+     **Note** : One answer per question
+- After selecting answers to all questions, click on check answers button.
+- Look at the correct answers highlighted in green.
+- Check the score at the bottom of the screen.
+- Click on play again to start a new game.
 
 ### Usage <a name="run-tests"></a>
 Tests can be performed using the lighthouse extension on google chrome to get a report of the page performance.
